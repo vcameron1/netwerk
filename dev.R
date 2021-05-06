@@ -45,9 +45,17 @@ usethis::use_test("sum_matrix")
 # Test package from testthat script
 devtools::test()
 
+#### Documentation ####
+
+usethis::use_readme_rmd()
 
 #### Set up git and github ####
 
 usethis::use_git()
 
 usethis::use_github()
+
+
+
+
+# Set up github actions
