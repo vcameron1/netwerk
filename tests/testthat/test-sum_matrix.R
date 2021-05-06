@@ -4,5 +4,5 @@ test_that("matrix sum returns and error if not a matrix", {
 
   expect_equal(sum_matrix(x), 4)
 
-  #expect_error(sum_matrix(y), "Not a matrix!")
+  expect_error(sum_matrix(y))
 })

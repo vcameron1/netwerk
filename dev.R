@@ -41,6 +41,7 @@ sum_matrix()
 
 # Test function
 usethis::use_test("sum_matrix")
+usethis::use_test("dbase_fn")
 
 # Test package from testthat script
 devtools::test()
@@ -53,9 +54,10 @@ usethis::use_readme_rmd()
 
 usethis::use_git()
 
-usethis::use_github_actions()
+usethis::use_github_actions() # Sets up github actions automatically!!!
 
-
+# Update personal info
+gitcreds::gitcreds_set()
 
 
 # Set up github actions
