@@ -10,6 +10,6 @@ test_that("checking output class and values", {
   # check that it is a double that comes out
   expect_type(dbase_fn(x), "double")
 
-  expect_error(dbase_fn(xx[,-3]))
+  expect_error(dbase_fn(x[,-3]))
 
 })
