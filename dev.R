@@ -32,6 +32,9 @@ devtools::load_all(".")
 # or Call package
 #library(netwerk)
 
+
+#### Test matrix function ####
+
 # Try function
 ?sum_matrix
 sum_matrix()
@@ -41,3 +44,10 @@ usethis::use_test("sum_matrix")
 
 # Test package from testthat script
 devtools::test()
+
+
+#### Set up git and github ####
+
+usethis::use_git()
+
+usethis::use_github()
