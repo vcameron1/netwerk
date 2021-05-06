@@ -1,3 +1,4 @@
 ^dev\.R$
 ^LICENSE\.md$
 ^README\.Rmd$
+^\.github$

@@ -53,7 +53,7 @@ usethis::use_readme_rmd()
 
 usethis::use_git()
 
-usethis::use_github()
+usethis::use_github_actions()
 
 
 
