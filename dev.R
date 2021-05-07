@@ -60,4 +60,13 @@ usethis::use_github_actions() # Sets up github actions automatically!!!
 gitcreds::gitcreds_set()
 
 
-# Set up github actions
+#### Use other's package ####
+
+usethis::use_package("assertthat") # add dependencies to 'imports' section of DESCRIPTION file
+
+#### Use data in package ####
+
+usethis::use_data_raw("pedro_data") # add data to pedro_data.R script
+
+# check R package
+devtools::check()

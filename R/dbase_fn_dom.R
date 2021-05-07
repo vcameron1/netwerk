@@ -11,8 +11,8 @@
 dbase_fn = function(L) {
 
   # Checks
-  sstopifnot(nrow(L) == ncol(L))
-  #assertthat::assert_that(nrow(L) == ncol(L)) # package to throw error message
+  assertthat::assert_that(nrow(L) == ncol(L)) # package to throw error message
+  #stopifnot(nrow(L) == ncol(L))
 
   NS = nrow(L) 
 	
